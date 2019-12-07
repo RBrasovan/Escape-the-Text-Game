@@ -1,0 +1,82 @@
+[
+    {
+        "objects": {
+            "name": "hammer",
+            "usable": true,
+            "weight": 1.5,
+            "damage": 5
+        }
+    },
+    {
+        "objects": {
+            "name": "knife",
+            "usable": true,
+            "weight": 0.1,
+            "damage": 5
+        }
+    },
+    {
+        "objects": {
+            "name": "map",
+            "usable": true,
+            "weight": 0.05,
+            "damage": 0
+        }
+    },
+    {
+        "objects": {
+            "name": "silver",
+            "usable": false,
+            "weight": 1.0,
+            "damage": 0
+        }
+    },
+    {
+        "objects": {
+            "name": "harmonica",
+            "usable": true,
+            "weight": 0.3,
+            "damage": 0
+        }
+    },
+    {
+        "objects": {
+            "name": "health potion",
+            "usable": true,
+            "weight": 0.3,
+            "damage": 0
+        }
+    },
+    {
+        "objects": {
+            "name": "gem",
+            "usable": false,
+            "weight": 0.1,
+            "damage": 0
+        }
+    },
+    {
+        "objects": {
+            "name": "gold",
+            "usable": false,
+            "weight": 0.2,
+            "damage": 0
+        }
+    },
+    {
+        "objects": {
+            "name": "sword",
+            "usable": true,
+            "weight": 7.0,
+            "damage": 10
+        }
+    },
+    {
+        "objects": {
+            "name": "torch",
+            "usable": true,
+            "weight": 2.0,
+            "damage": 2
+        }
+    }
+]

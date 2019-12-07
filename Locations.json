@@ -1,0 +1,245 @@
+[
+    {
+        "locations": {
+            "description": "You look around the room and see you are in an empty room with 2 doors to the left and to the right. Knowing not how you got there, you decide to figure out how to escape and get back to your normal life.",
+            "name": "start",
+            "objects": [],
+            "directions": [{
+                    "direction": "right",
+                    "location": "empty room1"
+                }, {
+                    "direction": "left",
+                    "location": "dungeon"
+                }]
+        }
+    },
+    {
+        "locations": {
+            "description": "Inside this room it looks like some sort of dungeon with a cage in the middle and blood lining the wall and floor.",
+            "name": "dungeon",
+            "objects": ["map", "torch"],
+            "directions": [{
+                    "direction": "up",
+                    "location": "hallway2"
+                }, {
+                    "direction": "down",
+                    "location": "hallway1"
+                }, {
+                    "direction": "right",
+                    "location": "start"
+                }]
+        }
+    },
+    {
+        "locations": {
+            "description": "As you enter this room you are filled with diappointment as there is no way to go next from this room. However, there is something laying on the floor...",
+            "name": "empty room1",
+            "objects": ["silver"],
+            "directions": [{
+                    "direction": "left",
+                    "location": "start"
+                }]
+        }
+    },
+    {
+        "locations": {
+            "description": "A long dark hallway stretches out before you with a unmoving wall at the end. Your only way out is back where you came.",
+            "name": "hallway1",
+            "objects": [],
+            "directions": [{
+                    "direction": "up",
+                    "location": "dungeon"
+                }]
+        }
+    },
+    {
+        "locations": {
+            "description": "You enter a hallway lined with torches. There is a door so far down you can barely make it out. You start to wonder how big this place is...",
+            "name": "hallway2",
+            "objects": [],
+            "directions": [{
+                    "direction": "up",
+                    "location": "book room"
+                }, {
+                    "direction": "down",
+                    "location": "dungeon"
+                }]
+        }
+    },
+    {
+        "locations": {
+            "description": "This room looks like some kind of book room with a few destroyed books in falling apart bookcases. You wonder what they used to be.",
+            "name": "book room",
+            "objects": [],
+            "directions": [{
+                    "direction": "up",
+                    "location": "empty room2"
+                }, {
+                    "direction": "down",
+                    "location": "hallway2"
+                }, {
+                    "direction": "right",
+                    "location": "waiting room"
+                }]
+        }
+    },
+    {
+        "locations": {
+            "description": "You slowly enter an empty room and are getting desprate to get out of this maze. However, you are just met with blank walls and no way out except the way you came.",
+            "name": "empty room2",
+            "objects": [],
+            "directions": [{
+                    "direction": "down",
+                    "location": "book room"
+                }]
+        }
+    },
+    {
+        "locations": {
+            "description": "Walking into this room you notice it looks like a waiting room. There are what used to be rich couches that don't look very nice to sit on now. And besides, you need to get back to your own world. 'Didn't I order pizza?' you think to yourself.",
+            "name": "waiting room",
+            "objects": ["knife"],
+            "directions": [{
+                    "direction": "left",
+                    "location": "book room"
+                }, {
+                    "direction": "right",
+                    "location": "hallway3"
+                }, {
+                    "direction": "up",
+                    "location": "hallway4"
+                }, {
+                    "direction": "down",
+                    "location": "bedroom"
+                }]
+        }
+    },
+    {
+        "locations": {
+            "description": "Opening the door to this room you are met with the stench of death and the horrible sight of a rotten skeleton! You cover your nose as best you can and want to get out as soon as possible. However, the only way out is back where you came.",
+            "name": "bedroom",
+            "objects": ["harmonica"],
+            "directions": [{
+                    "direction": "up",
+                    "location": "waiting room"
+                }]
+        }
+    },
+    {
+        "locations": {
+            "description": "You enter another empty hallway, but instead of torches lining the halls there is nothing. It is pitch black which makes you very nervous to proceed.",
+            "name": "hallway3",
+            "objects": [],
+            "directions": [{
+                    "direction": "left",
+                    "location": "waiting room"
+                }, {
+                    "direction": "right",
+                    "location": "treasure room"
+                }]
+        }
+    },
+    {
+        "locations": {
+            "description": "You are so glad you went down the scary hall! Gold lies scattered around the floor surrounded by empty chests. You can only assume that this used to be a treasure room.",
+            "name": "treasure room",
+            "objects": ["gold"],
+            "directions": [{
+                    "direction": "left",
+                    "location": "hallway3"
+                }]
+        }
+    },
+    {
+        "locations": {
+            "description": "Another long hallway stretches out before you. Motivated by the thought of pizza, you feel the urge to start walking much quicker than you were before.",
+            "name": "hallway4",
+            "objects": [],
+            "directions": [{
+                    "direction": "up",
+                    "location": "alchemy room"
+                }, {
+                    "direction": "down",
+                    "location": "waiting room"
+                }]
+        }
+    },
+    {
+        "locations": {
+            "description": "Bursting open the door to the new room you see what could be some sort of potion or alchemy room. There are empty vials - some crushed, some cracked- and a table with moldy and decaying materials.",
+            "name": "alchemy room",
+            "objects": ["health potion"],
+            "directions": [{
+                    "direction": "left",
+                    "location": "armory"
+                }, {
+                    "direction": "right",
+                    "location": "spooky room"
+                }, {
+                    "direction": "down",
+                    "location": "waiting room"
+                }]
+        }
+    },
+    {
+        "locations": {
+            "description": "In this room you are surprised to see an armory. Old medival armor was propped up on straw mannequins and rusty weapons were scattered about. All rusty except one that is...",
+            "name": "armory",
+            "objects": ["sword"],
+            "directions": [{
+                    "direction": "up",
+                    "location": "storage room"
+                }, {
+                    "direction": "right",
+                    "location": "alchemy room"
+                }]
+        }
+    },
+    {
+        "locations": {
+            "description": "This room seemed to be a storage room of sorts with smaller chests stacked up on top of one another.",
+            "name": "storage room",
+            "objects": ["gem"],
+            "directions": [{
+                    "direction": "down",
+                    "location": "armory"
+                }, {
+                    "direction": "right",
+                    "location": "empty room4"
+                }]
+        }
+    },
+    {
+        "locations": {
+            "description": "It was about time you hit another one of these - just a plain old empty room with no use that you could see. It was almost like the designer of this place wanted to make your life more difficult and waste your time. How rude!",
+            "name": "empty room4",
+            "objects": [],
+            "directions": [{
+                    "direction": "left",
+                    "location": "storage room"
+                }]
+        }
+    },
+    {
+        "locations": {
+            "description": "You start to feel a very evil presence as you walk into this room. There is only one door and you are scarred to open it. Could there be something or SOMEONE behind it?",
+            "name": "spooky room",
+            "objects": ["hammer"],
+            "directions": [{
+                    "direction": "left",
+                    "location": "alchemy room"
+                }, {
+                    "direction": "down",
+                    "location": "boss room"
+                }]
+        }
+    },
+    {
+        "locations": {
+            "description": "Welcome to the boss room! You must defeat the mighty Reaper and his minons by taking turns attacking. Use weapons you have collected on your way here to defeat him by typing 'use (weapon)'! If you die, you can load your save (if you have one) and try again. Ready? FIGHT!",
+            "name": "boss room",
+            "objects": [],
+            "directions": []
+        }
+    }
+]
